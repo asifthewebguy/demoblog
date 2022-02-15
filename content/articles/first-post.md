@@ -3,6 +3,11 @@ title: My first Blog Post
 description: Learning how to use @nuxt/content to create a blog
 img: blog-2.jpg
 alt: my first blog post
+slug: first-post
+author:
+  name: Asif
+  bio: All about Asif
+  image: https://images.unsplash.com/.....
 ---
 
 # My first blog post
