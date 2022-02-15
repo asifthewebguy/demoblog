@@ -1,12 +1,24 @@
 <template>
   <nav>
     <ul>
-      <li><i class="fa fa-home" aria-hidden="true"></i></li>
-      <li>About</li>
-      <li>Work</li>
-      <li>Contact</li>
-      <li>Resume</li>
-      <li><i class="fa fa-moon-o" aria-hidden="true"></i></li>
+      <li>
+        <nuxt-link to="/"><i class="fa fa-home" aria-hidden="true"></i></nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="about">About</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="work">Work</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="contact">Contact</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="resume">Resume</nuxt-link>
+      </li>
+      <li>
+        <i class="fa fa-moon-o" aria-hidden="true"></i>
+      </li>
     </ul>
   </nav>
 </template>
