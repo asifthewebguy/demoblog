@@ -42,4 +42,18 @@ nav li{
   margin: 0 10px;
   cursor: pointer;
 }
+.icon.icon-home {
+    background-image: url('~assets/svg/house.svg');
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+  }
+  .icon.icon-moon {
+    background-image: url('~assets/svg/moon.svg');
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+  }
 </style>
