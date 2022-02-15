@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <Header/>
     <Nuxt/>
     <Footer/>
@@ -16,5 +16,15 @@ import Header from "../components/Header.vue";
 </script>
 
 <style scoped>
-
+:root{
+  font-size: 16px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin-top: 80px;
+}
 </style>

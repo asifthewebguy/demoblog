@@ -23,8 +23,6 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50vw;
-  height: 100px;
 }
 nav li{
   list-style: none;
