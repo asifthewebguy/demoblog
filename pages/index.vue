@@ -1,5 +1,7 @@
 <template>
-  <Tutorial/>
+  <div>
+    This is the homePage
+  </div>
 </template>
 
 <script>
