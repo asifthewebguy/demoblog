@@ -6,20 +6,23 @@
 
 <script>
 import MAC from "./MAC.vue";
-  export default {
-    components: { MAC }
+import Navigation from "./Navigation.vue";
+
+export default {
+  components: { MAC, Navigation }
 }
 </script>
 
 <style scoped>
-  header{
+  header {
     display: flex;
     justify-content: space-between;
-    background: #f5f5f5;
+    background: var(--color-header-bg);
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     z-index: 1;
+    padding: var(--spacing-unit);
   }
 </style>

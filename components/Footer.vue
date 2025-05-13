@@ -11,10 +11,12 @@
 </script>
 
 <style scoped>
-footer{
-  width: 100vw;
+footer {
+  width: 100%;
   text-align: center;
   position: fixed;
   bottom: 0;
+  padding: var(--spacing-unit);
+  background: var(--color-header-bg);
 }
 </style>
